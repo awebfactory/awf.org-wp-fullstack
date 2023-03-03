@@ -5,7 +5,7 @@
 
 ## What is WordPress Fullstack?
 
-- Started Drupal in 2006. Stayed for the Community. Left because did not smell like teen spirit. They [didn't listen to Nedjo](https://awebfactory.com/node/536/), still don't... 3% of the web
+- Started Drupal in 2006. Stayed for the Community. Left because did not smell like teen spirit. They [didn't listen to Nedjo](https://awebfactory.com/node/536/), still don't... 3% of the web at last count...
 - Java, Ruby on Rails...
 - Started Node.js in 2011. Still there, although loving Deno.
 - CouchDB in 2012
