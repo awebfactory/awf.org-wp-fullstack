@@ -115,6 +115,8 @@ build/
 
 # !wp-content/mu-plugins/lso-custom-post-types.php
 # !wp-content/themes/mydreamtheme/
+!wp-content/themes/pft
+
 
 # node-modules and build directories will be ignored (see settings above)
 # !wp-content/plugins/my-first-gutenberg-app/
