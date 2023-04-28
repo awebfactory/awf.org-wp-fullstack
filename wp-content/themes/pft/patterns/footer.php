@@ -14,15 +14,15 @@
 <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/icon170.png" alt="" class="wp-image-66" width="85" height="85"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"align":"left","style":{"layout":{"selfStretch":"fixed","flexSize":"1rem"}}} -->
 <p class="has-text-align-left">©</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:epico/dynamic-year-block /-->
 
-<!-- wp:paragraph -->
-<p>authored by Victor Kane CC-BY-SA (unless otherwise stated) Creative Commons <a href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International License</a></p>
+<!-- wp:paragraph {"style":{"layout":{"selfStretch":"fixed","flexSize":"25rem"}}} -->
+<p>Victor Kane CC-BY-SA Creative Commons <a href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International License</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
