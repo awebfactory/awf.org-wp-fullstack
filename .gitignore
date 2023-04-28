@@ -112,8 +112,8 @@ build/
 
 # !wp-content/mu-plugins/example-mu-plugin/
 # !wp-content/plugins/example-plugin/
-
-# !wp-content/mu-plugins/lso-custom-post-types.php
+!wp-content/plugins/awf-content-model-blocks
+!wp-content/mu-plugins/awf-content-model.php
 # !wp-content/themes/mydreamtheme/
 !wp-content/themes/pft
 
