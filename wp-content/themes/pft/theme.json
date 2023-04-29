@@ -26,6 +26,30 @@
 		},
 		"useRootPaddingAwareAlignments": true
 	},
+	"styles": {
+		"color": {
+			"background": "#eeeeee",
+			"text": "#434547"
+		},
+		"elements": {
+			"button": {
+				"color": {
+					"background": "#ff9900",
+					"text": "#734416"
+				}
+			},
+			"heading": {
+				"color": {
+					"text": "#996633"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "#72a83b"
+				}
+			}
+		}
+	},
 	"templateParts": [
 		{
 			"area": "header",
