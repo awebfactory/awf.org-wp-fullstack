@@ -1,0 +1,45 @@
+<!-- wp:template-part {"slug":"header","theme":"pft","tagName":"header"} /-->
+
+<!-- wp:group {"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:heading {"textAlign":"center"} -->
+<h2 class="wp-block-heading has-text-align-center">Projects we're working on...</h2>
+<!-- /wp:heading -->
+
+<!-- wp:query {"queryId":8,"query":{"perPage":"10","pages":0,"offset":0,"postType":"project","order":"asc","orderBy":"title","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[]},"displayLayout":{"type":"flex","columns":3}} -->
+<div class="wp-block-query"><!-- wp:post-template -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}}},"layout":{"inherit":false}} -->
+<div class="wp-block-group" style="padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"><!-- wp:post-title {"isLink":true,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}}} /-->
+
+<!-- wp:awebfactory/render-single-meta-field {"selectedPostType":"project","selectedPostField":"awebfactory_project_description"} /-->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:paragraph -->
+<p>Start date:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:awebfactory/render-single-meta-field {"selectedPostType":"project","selectedPostField":"awebfactory_project_start_date"} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:paragraph -->
+<p>Estimated completion date:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:awebfactory/render-single-meta-field {"selectedPostType":"project","selectedPostField":"awebfactory_project_completion_date"} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+<!-- /wp:post-template -->
+
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:query-pagination {"paginationArrow":"arrow","layout":{"type":"flex","justifyContent":"space-between","flexWrap":"nowrap"}} -->
+<!-- wp:query-pagination-previous /-->
+
+<!-- wp:query-pagination-numbers /-->
+
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination --></div>
+<!-- /wp:group --></div>
+<!-- /wp:query --></div>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","theme":"pft","tagName":"footer"} /-->
