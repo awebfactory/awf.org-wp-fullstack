@@ -50,6 +50,27 @@ function awebfactory_content_model() {
       }
     ));
   }
+    register_post_type(
+    'conversation',
+    array(
+      'labels'       => array(
+        'name'          => __( 'Conversations', 'tutorial' ),
+        'singular_name' => __( 'Conversation', 'tutorial' ),
+      ),
+      'public'       => true,
+			'menu_icon'    => 'dashicons-format-chat',
+      'has_archive'  => true,
+      'rewrite' => array('slug' => 'conversations'), // Set desired slug
+      'show_in_rest' => true,
+      'supports'     => array(
+        'title',
+        'editor',
+        'thumbnail',
+        'excerpt',
+        'custom-fields',
+      ),
+    )
+  );
 }
 
 add_action('init', 'awebfactory_content_model');
