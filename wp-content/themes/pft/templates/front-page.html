@@ -1,5 +1,43 @@
 <!-- wp:template-part {"slug":"header","theme":"pft","tagName":"header"} /-->
 
+<!-- wp:group {"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:query {"queryId":8,"query":{"perPage":"3","pages":0,"offset":0,"postType":"project","order":"asc","orderBy":"title","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[]},"displayLayout":{"type":"flex","columns":3}} -->
+<div class="wp-block-query"><!-- wp:post-template -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}}},"layout":{"inherit":false}} -->
+<div class="wp-block-group" style="padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"><!-- wp:post-title {"isLink":true} /-->
+
+<!-- wp:awebfactory/render-single-meta-field {"selectedPostType":"project","selectedPostField":"awebfactory_project_description"} /-->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:paragraph -->
+<p>Start date:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:awebfactory/render-single-meta-field {"selectedPostType":"project","selectedPostField":"awebfactory_project_start_date"} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:paragraph -->
+<p>Estimated completion date:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:awebfactory/render-single-meta-field {"selectedPostType":"project","selectedPostField":"awebfactory_project_completion_date"} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+<!-- /wp:post-template -->
+
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:query-pagination {"paginationArrow":"arrow","layout":{"type":"flex","justifyContent":"space-between","flexWrap":"nowrap"}} -->
+<!-- wp:query-pagination-previous /-->
+
+<!-- wp:query-pagination-numbers /-->
+
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination --></div>
+<!-- /wp:group --></div>
+<!-- /wp:query --></div>
+<!-- /wp:group -->
+
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading -->
 <h2 class="wp-block-heading">What's Project Flow & Tracker?</h2>
@@ -7,7 +45,7 @@
 
 <!-- wp:list -->
 <ul><!-- wp:list-item -->
-<li>A #BuildInPublic #LearnInPublic platform for open <a href="#">projects</a> to find out about all this in detail and to pretty much flow right and follow your own projects too…</li>
+<li>A #BuildInPublic #LearnInPublic platform for open <a href="/projects" data-type="URL" data-id="/projects">projects</a> to find out about all this in detail and to pretty much flow right and follow your own projects too…</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
