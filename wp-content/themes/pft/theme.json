@@ -2,8 +2,8 @@
 	"settings": {
 		"appearanceTools": true,
 		"layout": {
-			"contentSize": "1024px",
-			"wideSize": "1240px"
+			"contentSize": "1440px",
+			"wideSize": "1920px"
 		},
 		"spacing": {
 			"units": [
