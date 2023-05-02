@@ -1,19 +1,15 @@
 <!-- wp:template-part {"slug":"header","theme":"pft","tagName":"header"} /-->
 
-<!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:heading -->
-<h2 class="wp-block-heading">Blog</h2>
-<!-- /wp:heading --></div>
-<!-- /wp:group -->
-
-<!-- wp:query {"queryId":3,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"taxQuery":null,"parents":[]},"tagName":"main","displayLayout":{"type":"flex","columns":3},"layout":{"inherit":true,"type":"constrained"}} -->
+<!-- wp:group {"layout":{"type":"constrained","contentSize":"1440px","wideSize":"1440px"}} -->
+<div class="wp-block-group"><!-- wp:query {"queryId":1,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"taxQuery":null,"parents":[]},"tagName":"main","displayLayout":{"type":"list"},"layout":{"inherit":true,"type":"constrained"}} -->
 <main class="wp-block-query"><!-- wp:post-template -->
-<!-- wp:group {"layout":{"type":"constrained","contentSize":"1024px","wideSize":"1290px"}} -->
-<div class="wp-block-group"><!-- wp:post-title {"isLink":true} /-->
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:post-title {"fontSize":"large"} /-->
 
-<!-- wp:post-featured-image {"isLink":true,"align":"wide"} /-->
+<!-- wp:post-featured-image /-->
 
-<!-- wp:post-content /-->
+<!-- wp:group {"layout":{"type":"constrained","contentSize":"1024px"}} -->
+<div class="wp-block-group"><!-- wp:post-content /-->
 
 <!-- wp:group {"style":{"typography":{"fontSize":"14px"}},"layout":{"type":"flex"}} -->
 <div class="wp-block-group" style="font-size:14px"><!-- wp:post-author {"showAvatar":false,"showBio":false} /-->
@@ -28,6 +24,7 @@
 <!-- wp:spacer {"height":"40px"} -->
 <div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
 <!-- /wp:post-template -->
 
@@ -40,6 +37,7 @@
 <!-- wp:query-pagination-next /-->
 <!-- /wp:query-pagination --></div>
 <!-- /wp:group --></main>
-<!-- /wp:query -->
+<!-- /wp:query --></div>
+<!-- /wp:group -->
 
 <!-- wp:template-part {"slug":"footer","theme":"pft","tagName":"footer"} /-->
