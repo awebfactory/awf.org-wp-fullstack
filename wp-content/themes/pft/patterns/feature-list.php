@@ -29,7 +29,7 @@
 <div style="height:4rem" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:paragraph -->
-<p>Based on <a href="https://wordpress.org/patterns/pattern/schedule-table/">Schedule Table</a> pattern by <a href="https://wordpress.org/patterns/author/vheinrich/">vheinrich</a></p>
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size"><em>Based on <a href="https://wordpress.org/patterns/pattern/schedule-table/">Schedule Table</a> pattern by <a href="https://wordpress.org/patterns/author/vheinrich/">vheinrich</a></em></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->

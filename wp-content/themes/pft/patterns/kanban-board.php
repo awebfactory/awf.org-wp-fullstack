@@ -110,6 +110,10 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
+<!-- wp:spacer {"height":"4rem"} -->
+<div style="height:4rem" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
 <!-- wp:paragraph {"fontSize":"small"} -->
 <p class="has-small-font-size"><em>Pattern based on <a href="https://wordpress.org/patterns/pattern/kanban-board/">Kanban Board</a> by <a href="https://wordpress.org/patterns/author/dustinwstout">Dustin W. Stout</a></em></p>
 <!-- /wp:paragraph -->
