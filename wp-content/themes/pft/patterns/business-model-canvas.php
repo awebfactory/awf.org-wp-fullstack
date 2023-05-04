@@ -31,7 +31,7 @@
     subgraph top[" "]
       subgraph col1["Key Partners"]
         direction LR
-        kpQuestionsAndTips["&lt;small>Who are our Key Partners?&lt;br/>Who are our key suppliers?&lt;br/>Which Key Resources are we acquiring from partners?&lt;br/>Which Key Activities do partners perform?&lt;br/>&lt;br/>&lt;strong>MOTIVATIONS FOR PARTNERSHIPS&lt;/strong>:&lt;br/>Optimization and economy&lt;br/>Reduction of risk and uncertainty&lt;br/>Acquisition of particular resources and activities&lt;/small>"]:::nodeStyle
+        kpQuestionsAndTips["&lt;small>Who are our Key Partners?&lt;br/>Who are our key suppliers?&lt;br/>Which Key Resources&lt;br/>are we acquiring from partners?&lt;br/>Which Key Activities do partners perform?&lt;br/>&lt;br/>&lt;strong>MOTIVATIONS FOR PARTNERSHIPS&lt;/strong>:&lt;br/>Optimization and economy&lt;br/>Reduction of risk and uncertainty&lt;br/>Acquisition of particular resources and activities&lt;/small>"]:::nodeStyle
 
         kpa["Your content"]:::postItStyle
 
@@ -41,14 +41,14 @@
       subgraph col2 [" "]
         subgraph col2r1 ["Key Activities"]
           direction LR
-          kaQuestionAndTips["&lt;small>What Key Activities do our Value Propositions require?&lt;br/>Our Distribution Channels?&lt;br/>Customer Relationships?&lt;br/>Revenue streams?&lt;br/>&lt;br/>&lt;strong>CATEGORIES&lt;/strong>&lt;br/>Production&lt;br/>Problem Solving&lt;br/>Platform/Network&lt;/small>"]:::nodeStyle
+          kaQuestionAndTips["&lt;small>What Key Activities&lt;br/>do our Value Propositions require?&lt;br/>Our Distribution Channels?&lt;br/>Customer Relationships?&lt;br/>Revenue streams?&lt;br/>&lt;br/>&lt;strong>CATEGORIES&lt;/strong>&lt;br/>Production&lt;br/>Problem Solving&lt;br/>Platform/Network&lt;/small>"]:::nodeStyle
 
           kaa["Your content"]:::postItStyle
 
         end
         subgraph col2r2 ["Key Resources"]
           direction LR
-          krQuestionAndTips["&lt;small>What Key Resources do our Value Propositions require?&lt;br/>Our Distribution Channels? Customer Relationships?&lt;br/>Revenue Streams?&lt;br/>&lt;br/>&lt;strong>TYPES OF RESOURCES&lt;/strong>&lt;br/>Physical&lt;br/>Intellectual (brand patents, copyrights, data)&lt;br/>Human&lt;br/>Financial&lt;/small>"]:::nodeStyle
+          krQuestionAndTips["&lt;small>What Key Resources&lt;br/>do our Value Propositions require?&lt;br/>Our Distribution Channels?&lt;br/>Customer Relationships?&lt;br/>Revenue Streams?&lt;br/>&lt;br/>&lt;strong>TYPES OF RESOURCES&lt;/strong>&lt;br/>Physical&lt;br/>Intellectual (brand patents, copyrights, data)&lt;br/>Human&lt;br/>Financial&lt;/small>"]:::nodeStyle
 
           kra["Your content"]:::postItStyle
 
@@ -56,7 +56,7 @@
       end
       subgraph col3 ["Value Propositions"]
           direction LR
-          vpQuestionAndTips["&lt;small>What value do we deliver to the customer?&lt;br/>Which one of our customer’s problems are we helping to solve?&lt;br/>What bundles of products and services are we offering to each Customer Segment?&lt;br/>Which customer needs are we satisfying?&lt;br/>&lt;br/>&lt;strong>CHARACTERISTICS&lt;/strong>&lt;br/>Newness&lt;br/>Performance&lt;br/>Customization&lt;br/>“Getting the Job Done”&lt;br/>Design&lt;br/>Brand/Status&lt;br/>Price&lt;br/>Cost Reduction&lt;br/>Risk Reduction&lt;br/>Accessibility&lt;br/>Convenience/Usability&lt;/small>"]:::nodeStyle
+          vpQuestionAndTips["&lt;small>What value do we deliver to the customer?&lt;br/>Which one of our customer’s problems&lt;br/>are we helping to solve?&lt;br/>What bundles of products and services&lt;br/>are we offering to each Customer Segment?&lt;br/>Which customer needs are we satisfying?&lt;br/>&lt;br/>&lt;strong>CHARACTERISTICS&lt;/strong>&lt;br/>Newness&lt;br/>Performancec&lt;br/>Customization&lt;br/>“Getting the Job Done”&lt;br/>Design&lt;br/>Brand/Status&lt;br/>Price&lt;br/>Cost Reduction&lt;br/>Risk Reduction&lt;br/>Accessibility&lt;br/>Convenience/Usability&lt;/small>"]:::nodeStyle
 
           vpa["Your content"]:::postItStyle
 
@@ -64,14 +64,14 @@
       subgraph col4 [" "]
         subgraph col4r1 ["Customer Relationships"]
           direction LR
-          crQuestionAndTips["&lt;small>What type of relationship does each of our Customer&lt;br/>Segments expect us to establish and maintain with them?&lt;br/>Which ones have we established?&lt;br/>How are they integrated with the rest of our business model?&lt;br/>How costly are they?&lt;br/>&lt;br/>&lt;strong>EXAMPLES&lt;/strong>&lt;br/>Personal assistance&lt;br/>Dedicated Personal Assistance&lt;br/>Self-Service&lt;br/>Automated Services&lt;br/>Communities&lt;br/>Co-creation&lt;/small>"]:::nodeStyle
+          crQuestionAndTips["&lt;small>What type of relationship&lt;br/>does each of our CustomerSegments&lt;br/>expect us to establish and maintain with them?&lt;br/>Which ones have we established?&lt;br/>How are they integrated&lt;br/>with the rest of our business model?&lt;br/>How costly are they?&lt;br/>&lt;br/>&lt;strong>EXAMPLES&lt;/strong>&lt;br/>Personal assistance&lt;br/>Dedicated Personal Assistance&lt;br/>Self-Service&lt;br/>Automated Services&lt;br/>Communities&lt;br/>Co-creation&lt;/small>"]:::nodeStyle
 
           cra["Your content"]:::postItStyle
 
         end
         subgraph col4r2 ["Channels"]
           direction LR
-          chQuestionAndTips["&lt;small>Through which Channels do our Customer Segments&lt;br/>want to be reached?&lt;br/>How are we reaching them now?&lt;br/>How are our Channels integrated?&lt;br/>Which ones work best?&lt;br/>Which ones are most cost-efficient?&lt;br/>How are we integrating them with customer routines?&lt;br/>&lt;br/>&lt;strong>CHANNEL PHASES:&lt;/strong>&lt;br/>1. Awareness: How do we raise awareness about our company’s products and services?&lt;br/>2. Evaluation: How do we help customers evaluate our organization’s Value Proposition?&lt;br/>3. Purchase: How do we allow customers to purchase specific products and services?&lt;br/>4. Delivery: How do we deliver a Value Proposition to customers?&lt;br/>5. After sales: How do we provide post-purchase customer support?&lt;/small>"]:::nodeStyle
+          chQuestionAndTips["&lt;small>Through which Channels do our Customer Segments&lt;br/>want to be reached?&lt;br/>How are we reaching them now?&lt;br/>How are our Channels integrated?&lt;br/>Which ones work best?&lt;br/>Which ones are most cost-efficient?&lt;br/>How are we integrating them with customer routines?&lt;br/>&lt;br/>&lt;strong>CHANNEL PHASES:&lt;/strong>&lt;br/>1. Awareness: How do we raise awareness&lt;br/>about our company’s products and services?&lt;br/>2. Evaluation: How do we help customers&lt;br/>evaluate our organization’s Value Proposition?&lt;br/>3. Purchase: How do we allow customers&lt;br/>to purchase specific products and services?&lt;br/>4. Delivery: How do we deliver&lt;br/>a Value Proposition to customers?&lt;br/>5. After sales: How do we provide&lt;br/>post-purchase customer support?&lt;/small>"]:::nodeStyle
 
           cha["Your content"]:::postItStyle
 
