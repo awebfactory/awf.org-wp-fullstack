@@ -15,7 +15,7 @@
 <!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"align":"full","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull"><!-- wp:heading -->
-<h2 class="wp-block-heading">Lean UX Canvas</h2>
+<h2 class="wp-block-heading">The Lean UX Canvas</h2>
 <!-- /wp:heading -->
 
 <!-- wp:merpress/mermaidjs -->
