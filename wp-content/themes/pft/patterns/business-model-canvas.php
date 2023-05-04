@@ -86,7 +86,7 @@
 
       end
     end
-    subgraph bottom
+    subgraph bottom [" "]
       subgraph bcol1 ["Cost Structure"]
         direction LR
         cstQuestionAndTips["&lt;small>What are the most important costs inherent in our business model?&lt;br/>Which Key Resources are most expensive?&lt;br/>Which Key Activities are most expensive?&lt;br/>&lt;br/>&lt;strong>IS YOUR BUSINESS MORE:&lt;/strong>&lt;br/>Cost Driven (leanest cost structure, low price value proposition, maximum automation, extensive outsourcing)&lt;br/>Value Driven ( focused on value creation, premium value proposition)&lt;br/>&lt;br/>&lt;strong>SAMPLE CHARACTERISTICS:&lt;/strong>&lt;br/>Fixed Costs (salaries, rents, utilities)&lt;br/>Variable costs&lt;br/>Economies of scale&lt;br/>Economies of scope&lt;/small>"]:::nodeStyle
