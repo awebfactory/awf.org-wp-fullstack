@@ -25,24 +25,35 @@
 <h3 class="wp-block-heading">Process checklist</h3>
 <!-- /wp:heading -->
 
-<!-- wp:html -->
-<form action="/action_page.php">
-  <input type="checkbox" id="progress-process-checklist" name="progress1" value="BMC">
-  <label for="progress1">Business Model Canvas</label><br>
-  <input type="checkbox" id="progress-task-completion" name="progress2" value="LUXC">
-  <label for="progress2">Lean UX Canvas</label><br>
-  <input type="checkbox" id="progress-fl" name="progress3" value="FL">
-  <label for="progress3">Feature List</label><br>
-  <input type="checkbox" id="progress-ds" name="progress4" value="DS">
-  <label for="progress4">Design System</label><br>
-  <input type="checkbox" id="progress-kbn" name="progress5" value="KB">
-  <label for="progress5">Kanban Board</label><br>
-  <input type="checkbox" id="progress-cnv" name="progress6" value="Cnv">
-  <label for="progress6">Conversations</label><br>
-  <input type="checkbox" id="progress-cnf" name="progress7" value="Cnf">
-  <label for="progress7">Confirmation: Pivot/Maintain</label>
-</form>
-<!-- /wp:html --></div>
+<!-- wp:list {"style":{"typography":{"lineHeight":"1","fontSize":"14px"},"spacing":{"margin":{"top":"4px"}}},"fontFamily":"system-font"} -->
+<ul class="has-system-font-font-family" style="margin-top:4px;font-size:14px;line-height:1"><!-- wp:list-item {"style":{"typography":{"textDecoration":"line-through"}}} -->
+<li style="text-decoration:line-through">Business Model Canvas</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item {"style":{"typography":{"textDecoration":"line-through"}}} -->
+<li style="text-decoration:line-through">Lean UX Canvas</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item {"style":{"typography":{"textDecoration":"line-through"}}} -->
+<li style="text-decoration:line-through">Feature List</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item {"style":{"typography":{"textDecoration":"line-through"}}} -->
+<li style="text-decoration:line-through">Design System</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item {"style":{"typography":{"textDecoration":"line-through"}}} -->
+<li style="text-decoration:line-through">Kanban Board</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item {"style":{"typography":{"textDecoration":"line-through"}}} -->
+<li style="text-decoration:line-through">Conversations</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item {"style":{"typography":{"textDecoration":"line-through"}}} -->
+<li style="text-decoration:line-through">Confirmation</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
 
