@@ -7,7 +7,7 @@
  * Keywords: 
  * Viewport Width: 1280
  * Block Types: core/post-content
- * Post Types: project
+ * Post Types: conversation, project
  * Inserter: true
  */
 

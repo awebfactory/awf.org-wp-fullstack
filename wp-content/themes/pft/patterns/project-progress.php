@@ -39,6 +39,10 @@
 <!-- /wp:list-item -->
 
 <!-- wp:list-item {"style":{"typography":{"textDecoration":"line-through"}}} -->
+<li style="text-decoration:line-through">Gantt Chart</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item {"style":{"typography":{"textDecoration":"line-through"}}} -->
 <li style="text-decoration:line-through">Design System</li>
 <!-- /wp:list-item -->
 
@@ -46,8 +50,8 @@
 <li style="text-decoration:line-through">Kanban Board</li>
 <!-- /wp:list-item -->
 
-<!-- wp:list-item {"style":{"typography":{"textDecoration":"line-through"}}} -->
-<li style="text-decoration:line-through">Conversations</li>
+<!-- wp:list-item -->
+<li>Conversations</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item {"style":{"typography":{"textDecoration":"line-through"}}} -->
